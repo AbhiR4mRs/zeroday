@@ -1,0 +1,33 @@
+# Ignore datasets
+*.csv
+*.npy
+
+# Ignore data folders
+data/raw/
+data/processed/
+data/models_saved/
+data/results/
+
+# Ignore frontend binaries
+*.node
+
+# Ignore frontend dependencies
+data/frontend/node_modules/
+data/frontend/build/
+
+# Allow code
+!data/backend/
+!data/frontend/
+
+# Python
+__pycache__/
+*.pyc
+
+# ML models
+*.pt
+*.pth
+*.h5
+
+# Env
+venv/
+.venv/
